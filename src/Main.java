@@ -23,6 +23,9 @@ public class Main {
         libraryManagment.setLibrary(library);
         libraryManagment.findBookByTitle("1984");
         System.out.println(libraryManagment.findBookByTitle("1984"));
+        System.out.println(libraryManagment.findBookByTitle("1984"));
+        System.out.println(libraryManagment.findBookByTitle("1984"));
+
 
 
     }
