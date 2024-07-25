@@ -11,7 +11,7 @@ public class LibraryManagment {
     }
 
     public String findBookByTitle(String title) {
-        // Перевіряємо, чи бібліотека не є null, і чи у неї є книги
+      
         if (library != null && library.getBooks() != null) {
             for (Book book : library.getBooks()) {
                 if (book.getTitle().equalsIgnoreCase(title)) {
